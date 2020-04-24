@@ -26,7 +26,8 @@
 
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-            <div><a class="navbar-brand righteous" href="index.html">My Favorites</a> <a class="navbar-brand righteous">Game</a></div>
+            <div><a class="navbar-brand righteous" href="index.html">My Favorites</a> <a
+                    class="navbar-brand righteous">Game</a></div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -55,46 +56,142 @@
 
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="3000">
         <div class="carousel-inner">
-            <div class="carousel-item">
-                <img src="movie.jpg" class="d-block w-100">
-                <div class="carousel-caption d-none d-md-block">
-                    <h1>My Favorite Movies</h1>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="drama.jpg" class="d-block w-100">
-                <div class="carousel-caption d-none d-md-block">
-                    <h1>My Favorite Dramas</h1>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="music.jpg" class="d-block w-100">
-                <div class="carousel-caption d-none d-md-block">
-                    <h1>My Favorite Music</h1>
-                </div>
-            </div>
             <div class="carousel-item active">
-                <img src="game.jpg" class="d-block w-100">
+                <img src="pubg.jpg" class="d-block w-100">
                 <div class="carousel-caption d-none d-md-block">
-                    <h1>My Favorite Games</h1>
+                    <h1>Player Unknown's Battlegrounds</h1>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="ats.jpg" class="d-block w-100">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>American Truck Simulator</h1>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="ets2.jpg" class="d-block w-100">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Euro Truck Simulator 2</h1>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="mine.jpg" class="d-block w-100">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Minecraft</h1>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="container">
-        <ul>
-            <li>Movie</li>
-            <li>K-Drama</li>
-            <li>Music</li>
-            <li>Game</li>
-        </ul>
+    <div class="accordion acc-movie" id="accordionExample">
+        <div class="card bg-dark text-white">
+            <div class="card-header" id="headingOne">
+                <h1 class="mb-0">
+                    <button class="btn btn-accordion text-white btn-outline-dark" type="button" data-toggle="collapse"
+                        data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Player Unknown's Battlegrounds <i class="fab fa-gratipay"></i>
+                    </button>
+                    </h2>
+            </div>
+
+            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="card-body">
+                    <p>PlayerUnknown's Battlegrounds (PUBG) is an online multiplayer battle royale game developed and
+                        published by PUBG Corporation, a subsidiary of South Korean video game company Bluehole. The
+                        game is based on previous mods that were created by Brendan "PlayerUnknown" Greene for other
+                        games, inspired by the 2000 Japanese film Battle Royale, and expanded into a standalone game
+                        under Greene's creative direction. In the game, up to one hundred players parachute onto an
+                        island and scavenge for weapons and equipment to kill others while avoiding getting killed
+                        themselves. The available safe area of the game's map decreases in size over time, directing
+                        surviving players into tighter areas to force encounters. The last player or team standing wins
+                        the round.</p>
+
+                    <p><a href="https://en.wikipedia.org/wiki/PlayerUnknown%27s_Battlegrounds"
+                            class="btn btn-outline-secondary">Go
+                            to Wikipedia</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="card bg-dark text-white">
+            <div class="card-header" id="headingTwo">
+                <h1 class="mb-0">
+                    <button class="btn btn-accordion text-white btn-outline-dark" type="button" data-toggle="collapse"
+                        data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        American Truck Simulator <i class="fab fa-gratipay"></i>
+                    </button>
+                    </h2>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <div class="card-body">
+                    <p>American Truck Simulator (ATS) is a 2016 business and vehicle simulation game developed by the
+                        Czech company SCS Software and is the parallel video game sequel to Euro Truck Simulator 2,
+                        spiritual successor of 18 Wheels of Steel. It was first announced as being in development in
+                        September 2013 and unveiled at the Electronic Entertainment Expo 2015 (E3 2015). The game was
+                        released on 2 February 2016.</p>
+
+                    <p><a href="https://en.wikipedia.org/wiki/American_Truck_Simulator"
+                            class="btn btn-outline-secondary">Go
+                            to Wikipedia</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="card bg-dark text-white">
+            <div class="card-header" id="headingThree">
+                <h1 class="mb-0">
+                    <button class="btn btn-accordion text-white btn-outline-dark" type="button" data-toggle="collapse"
+                        data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Euro Truck Simulator 2 <i class="fab fa-gratipay"></i>
+                    </button>
+                    </h2>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                <div class="card-body">
+                    <p>Euro Truck Simulator 2 (commonly abbreviated as ETS 2) is a truck simulator game developed and
+                        published by SCS Software for Microsoft Windows, Linux, and macOS and was initially released as
+                        open development on 19 October 2012. The game is a direct sequel to the 2008 game Euro Truck
+                        Simulator and it is the second video game in the Truck Simulator series. The basic premise of
+                        the game is that the player can drive one of a choice of articulated (artic in the UK) trucks
+                        across a condensed depiction of Europe, picking up cargo from various locations and delivering
+                        it. As the game progresses, it is possible for the player to buy more vehicles and depots, as
+                        well as hire other drivers to work for them.</p>
+
+                    <p><a href="https://en.wikipedia.org/wiki/Euro_Truck_Simulator_2"
+                            class="btn btn-outline-secondary">Go
+                            to Wikipedia</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="card bg-dark text-white">
+            <div class="card-header" id="headingFour">
+                <h1 class="mb-0">
+                    <button class="btn btn-accordion text-white btn-outline-dark" type="button" data-toggle="collapse"
+                        data-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                        Minecraft <i class="fab fa-gratipay"></i>
+                    </button>
+                    </h2>
+            </div>
+            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                <div class="card-body">
+                    <p>Minecraft is a sandbox video game developed by Mojang. Minecraft was created by Markus "Notch"
+                        Persson in the Java programming language and was released as a public alpha for personal
+                        computers in 2009 before officially releasing in November 2011, with Jens Bergensten taking over
+                        development around then. It has since been ported to various platforms and is the bestselling
+                        video game of all time, with over 180 million copies sold across all platforms and over 112
+                        million monthly active players by 2019.</p>
+
+                    <p><a href="https://en.wikipedia.org/wiki/Minecraft" class="btn btn-outline-secondary">Go
+                            to Wikipedia</a></p>
+                </div>
+            </div>
+        </div>
     </div>
+
 
     <div class="container-fluid fixed-bottom bg-color">
         <div class="row">
             <div class="col-md-12 text-center text-grey">
-                <small>Copyright <a href="index.html" class="text-darkgrey righteous">My Favorites</a> <i class="far fa-copyright"></i> 2020. All rights reserved.</small>
+                <small>Copyright <a href="index.html" class="text-darkgrey righteous">My Favorites</a> <i
+                        class="far fa-copyright"></i> 2020. All rights reserved.</small>
             </div>
         </div>
     </div>

@@ -26,7 +26,8 @@
 
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-            <div><a class="navbar-brand righteous" href="index.html">My Favorites</a> <a class="navbar-brand righteous">Music</a></div>
+            <div><a class="navbar-brand righteous" href="index.html">My Favorites</a> <a
+                    class="navbar-brand righteous">Music</a></div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -55,46 +56,149 @@
 
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="3000">
         <div class="carousel-inner">
-            <div class="carousel-item">
-                <img src="movie.jpg" class="d-block w-100">
-                <div class="carousel-caption d-none d-md-block">
-                    <h1>My Favorite Movies</h1>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="drama.jpg" class="d-block w-100">
-                <div class="carousel-caption d-none d-md-block">
-                    <h1>My Favorite Dramas</h1>
-                </div>
-            </div>
             <div class="carousel-item active">
-                <img src="music.jpg" class="d-block w-100">
+                <img src="mariah.jpg" class="d-block w-100">
                 <div class="carousel-caption d-none d-md-block">
-                    <h1>My Favorite Music</h1>
+                    <h1>Mariah Carey</h1>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="game.jpg" class="d-block w-100">
+                <img src="boyz.jpg" class="d-block w-100">
                 <div class="carousel-caption d-none d-md-block">
-                    <h1>My Favorite Games</h1>
+                    <h1>Boyz II Men</h1>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="iu2.jpg" class="d-block w-100">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>IU</h1>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="bts2.jpg" class="d-block w-100">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>BTS</h1>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="container">
-        <ul>
-            <li>Movie</li>
-            <li>K-Drama</li>
-            <li>Music</li>
-            <li>Game</li>
-        </ul>
+    <div class="accordion acc-movie" id="accordionExample">
+        <div class="card bg-dark text-white">
+            <div class="card-header" id="headingOne">
+                <h1 class="mb-0">
+                    <button class="btn btn-accordion text-white btn-outline-dark" type="button" data-toggle="collapse"
+                        data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Mariah Carey <i class="fab fa-gratipay"></i>
+                    </button>
+                    </h2>
+            </div>
+
+            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="card-body">
+                    <p>Mariah Carey (born March 27, 1969 or 1970) is an American singer, songwriter, record producer,
+                        actress, entrepreneur, and philanthropist. Renowned for her five-octave vocal range, melismatic
+                        singing style, and signature use of the whistle register, Carey is referred to as the "Songbird
+                        Supreme" by Guinness World Records. She rose to fame in 1990 after signing to Columbia Records
+                        and
+                        releasing her eponymous debut album, which topped the U.S. Billboard 200 for eleven consecutive
+                        weeks. Carey became the only artist ever to have their first five singles reach number one on
+                        the
+                        U.S. Billboard Hot 100 chart, from "Vision of Love" to "Emotions".</p>
+
+                    <p><a href="https://en.wikipedia.org/wiki/Mariah_Carey" class="btn btn-outline-secondary">Go
+                            to Wikipedia</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="card bg-dark text-white">
+            <div class="card-header" id="headingTwo">
+                <h1 class="mb-0">
+                    <button class="btn btn-accordion text-white btn-outline-dark" type="button" data-toggle="collapse"
+                        data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Boyz II Men <i class="fab fa-gratipay"></i>
+                    </button>
+                    </h2>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <div class="card-body">
+                    <p>Boyz II Men (pronounced boys to men) is an American R&B vocal group from Philadelphia,
+                        Pennsylvania,
+                        best known for emotional ballads and a cappella harmonies. They are currently a trio composed of
+                        baritone Nathan Morris alongside tenors Wanya Morris and Shawn Stockman. During the 1990s, Boyz
+                        II
+                        Men found fame on Motown Records as a quartet including bass Michael McCary, who left the group
+                        in
+                        2003 due to multiple sclerosis.</p>
+
+                    <p><a href="https://en.wikipedia.org/wiki/Boyz_II_Men" class="btn btn-outline-secondary">Go
+                            to Wikipedia</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="card bg-dark text-white">
+            <div class="card-header" id="headingThree">
+                <h1 class="mb-0">
+                    <button class="btn btn-accordion text-white btn-outline-dark" type="button" data-toggle="collapse"
+                        data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        IU <i class="fab fa-gratipay"></i>
+                    </button>
+                    </h2>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                <div class="card-body">
+                    <p>Lee Ji-eun (Korean: 이지은; born May 16, 1993), known professionally as IU (Korean: 아이유), is a South
+                        Korean singer-songwriter and actress. She signed with Kakao M (formerly LOEN Entertainment) in
+                        2007
+                        as a trainee and debuted as a singer at the age of fifteen with her album, Lost and Found.
+                        Although
+                        her follow-up albums, Growing Up and IU...IM, brought mainstream success, it was after the
+                        release
+                        of "Good Day" (Korean: 좋은 날), the lead single from her 2010 album Real, that she achieved
+                        national
+                        stardom. "Good Day" went on to spend five consecutive weeks at the top position of South Korea's
+                        Gaon Digital Chart, and in 2019 it was ranked number one on Billboard magazine's 100 Greatest
+                        K-Pop
+                        Songs of the 2010s.</p>
+
+                    <p><a href="https://en.wikipedia.org/wiki/IU_(singer)" class="btn btn-outline-secondary">Go
+                            to Wikipedia</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="card bg-dark text-white">
+            <div class="card-header" id="headingFour">
+                <h1 class="mb-0">
+                    <button class="btn btn-accordion text-white btn-outline-dark" type="button" data-toggle="collapse"
+                        data-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                        BTS <i class="fab fa-gratipay"></i>
+                    </button>
+                    </h2>
+            </div>
+            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                <div class="card-body">
+                    <p>BTS (Korean: 방탄소년단; RR: Bangtan Sonyeondan), also known as the Bangtan Boys, is a seven-member
+                        South Korean boy band formed in Seoul in 2010. The septet co-writes and produces much of their
+                        output.
+                        Originally a hip hop group, their musical style has evolved to include a wide range of genres.
+                        Their lyrics, often focused on personal and social commentary, touch on the themes of mental
+                        health,
+                        troubles of school-age youth, loss, the journey towards loving oneself, and individualism. Their
+                        work features references to literature and psychological concepts and includes an alternative
+                        universe storyline. The group have staged several world tours.</p>
+
+                    <p><a href="https://en.wikipedia.org/wiki/BTS" class="btn btn-outline-secondary">Go
+                            to Wikipedia</a></p>
+                </div>
+            </div>
+        </div>
     </div>
 
     <div class="container-fluid fixed-bottom bg-color">
         <div class="row">
             <div class="col-md-12 text-center text-grey">
-                <small>Copyright <a href="index.html" class="text-darkgrey righteous">My Favorites</a> <i class="far fa-copyright"></i> 2020. All rights reserved.</small>
+                <small>Copyright <a href="index.html" class="text-darkgrey righteous">My Favorites</a> <i
+                        class="far fa-copyright"></i> 2020. All rights reserved.</small>
             </div>
         </div>
     </div>
