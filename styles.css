@@ -1,4 +1,6 @@
-.h1, h1, .righteous {
+.h1,
+h1,
+.righteous {
     font-family: 'Righteous', cursive;
 }
 
@@ -11,12 +13,12 @@
 }
 
 body {
-    background-color:#212529;
+    background-color: #212529;
     padding-top: 56px;
     margin-bottom: 24px;
 }
 
-.text-darkgrey{
+.text-darkgrey {
     color: #A9A9A9;
 }
 
@@ -24,6 +26,16 @@ body {
     color: #808080;
 }
 
-.bg-color{
-    background-color:#212529;
+.bg-color {
+    background-color: #212529;
+}
+
+.acc-movie {
+    margin-top: 1.3rem;
+    margin-left: 1.3rem;
+    margin-right: 1.3rem;
+}
+
+.btn-accordion {
+    font-size:1.5rem;
 }
